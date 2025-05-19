@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PostListContext from './contexts/PostListContext'
+import PostsPage from './components/PostsPage';
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <PostListContext.Provider value={{ posts }}>
-        
+
       </PostListContext.Provider >
     </>
   )
