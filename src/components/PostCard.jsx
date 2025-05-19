@@ -1,8 +1,12 @@
 import React from 'react'
 
-const PostCard = () => {
+const PostCard = ({id, title, content, category}) => {
   return (
-    <div>PostCard</div>
+    <div className='card' key={id}>
+            <h3>{title}</h3>
+            <p>{content}</p>
+            <p>{category}</p>
+        </div>
   )
 }
 

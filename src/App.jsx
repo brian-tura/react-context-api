@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <PostListContext.Provider value={{ posts }}>
-
+        <PostsPage />
       </PostListContext.Provider >
     </>
   )
