@@ -10,10 +10,9 @@ const PostsList = () => {
     return (
         <div className='row'>
             {posts.map((post) => (
-            <PostCard id={post.id} title={post.title} content={post.content} category={post.category} />
+                <PostCard id={post.id} title={post.title} content={post.content} category={post.category} />
             ))}
         </div>
-
     )
 }
 
