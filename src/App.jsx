@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import PostListContext from './contexts/PostListContext'
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
@@ -15,12 +14,8 @@ function App() {
   return (
     <>
       <PostListContext.Provider value={{ posts }}>
-        <BrowserRouter>
-          <Routes>
-
-          </Routes>
-        </BrowserRouter>
-      </PostListContext.Provider>
+        
+      </PostListContext.Provider >
     </>
   )
 }

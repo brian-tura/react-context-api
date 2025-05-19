@@ -1,0 +1,11 @@
+import React from 'react'
+import PostsList from './PostsList'
+
+const PostsPage = () => {
+  return (
+    <h1>Lista posts</h1>
+    <PostsList />
+  )
+}
+
+export default PostsPage
