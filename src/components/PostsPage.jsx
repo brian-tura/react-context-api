@@ -5,8 +5,12 @@ const PostsPage = () => {
     return (
         <>
             <div className='container'>
-                <h1>Lista posts</h1>
-                <PostsList />
+                <header>
+                    <h1>Lista posts</h1>
+                </header>
+                <main>
+                    <PostsList />
+                </main>
             </div>
 
         </>
